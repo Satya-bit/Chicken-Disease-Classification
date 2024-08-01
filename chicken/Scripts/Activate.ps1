@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="C:\Users\satya\Documents\data_science_roadmap\dl_projects\Chicken_disease\dataset\Chicken-Disease-Classification\chicken"
+$env:VIRTUAL_ENV="C:\Users\satya\Documents\data_science_roadmap\dl_projects\Chicken_disease\Chicken-Disease-Classification\chicken"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name

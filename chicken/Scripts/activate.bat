@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\satya\Documents\data_science_roadmap\dl_projects\Chicken_disease\dataset\Chicken-Disease-Classification\chicken
+set VIRTUAL_ENV=C:\Users\satya\Documents\data_science_roadmap\dl_projects\Chicken_disease\Chicken-Disease-Classification\chicken
 
 if not defined PROMPT set PROMPT=$P$G
 
