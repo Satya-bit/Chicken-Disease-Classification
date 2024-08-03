@@ -12,8 +12,8 @@ import base64
 
 
 
-@ensure_annotations
-def read_yaml(path_to_yaml: Path) -> ConfigBox:
+@ensure_annotations    #ensure annotation is used because suppose let say in a function we have define integer and we pass string then also sometimes the function returns value which is not good
+def read_yaml(path_to_yaml: Path) -> ConfigBox:    #The use of config box is like we can acess any dictonary values like by writing d.key instead of writing d['key'] which returns the value
     """reads yaml file and returns
 
     Args:
