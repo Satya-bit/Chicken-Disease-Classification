@@ -16,3 +16,9 @@ prepare_callbacks:
   root_dir: artifacts/prepare_callbacks
   tensorboard_root_log_dir: artifacts/prepare_callbacks/tensorboard_log_dir
   checkpoint_model_filepath: artifacts/prepare_callbacks/checkpoint_dir/model.h5 #After training some epochs it will save the model and if you wish to retrain it eill start training from that checkpoijt itself
+
+
+
+training:
+  root_dir: artifacts/training
+  trained_model_path: artifacts/training/model.h5  #This model will be used for prediction
