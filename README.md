@@ -1,4 +1,7 @@
 # Chicken-Disease-Classification
+## Aim
+
+Here the aim of the prject is to determine that form the image uploaded by the user whether the disease is having Coccidiosis or is it healthy?
 
 ## Workflow
 
