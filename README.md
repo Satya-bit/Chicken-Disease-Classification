@@ -11,3 +11,12 @@
 7. Update the pipeline
 8. Update the main.py
 9. Upate the dvc.yaml - To track pipelines
+-> For fronted I have used HTML, CSS with Flask as a framework.
+-> VGG-16 CNN model is used for prediction.
+## Final results
+->As per the below image you can see that my model was able to predict that the fecal image was of Healthy chicken
+![image](https://github.com/user-attachments/assets/0d0ba6de-4e0c-4171-9cb9-0d8b496a35cc)
+
+->As per the below image you can see that my model was able to predict that the fecal image was of Coccidiosis chicken
+![image](https://github.com/user-attachments/assets/76637d96-678b-42ec-a04d-7b64a142856c)
+
